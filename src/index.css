@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Jockey One';
+    @apply bg-[#fdfcf9] text-gray-900;
+  }
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 100%;
+}
